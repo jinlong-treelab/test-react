@@ -15,7 +15,7 @@ ReactDOM.render(
     <Switch>
       <Route path={`/`} exact component={IndexPage} />
       <Route path={`/temp`} component={TempPage} />
-      <Route path={`/web-work`} component={WebWork} />
+      <Route path={`/webWork`} component={WebWork} />
     </Switch>
   </HashRouter>,
   document.getElementById("root")
